@@ -1,0 +1,7 @@
+[basic]
+productName = Default
+productVersion =1.0.0
+callBackUrl = http://127.0.0.1
+AppSecret = 46458A604792946B56A6546C3374D9AA
+appkey = 38669EB53BFDF2A8A0FDCCBDB2538500
+operator = 测试

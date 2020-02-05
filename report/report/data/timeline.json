@@ -1,0 +1,237 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "HTBC-20140822KE",
+    "children" : [ {
+      "name" : "14104-MainThread",
+      "children" : [ {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "b8519d9d67cdd23e",
+        "parentUid" : "365b6cd1c367a1600f789dc9d4c2b20f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078902,
+          "stop" : 1580870079027,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      }, {
+        "name" : "test_get_access_code[错误的accesstoken返回失败]",
+        "uid" : "82ecbdc8b6719195",
+        "parentUid" : "365b6cd1c367a1600f789dc9d4c2b20f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078544,
+          "stop" : 1580870078664,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'wrong'" ]
+      }, {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "b26c352a64cb3870",
+        "parentUid" : "365b6cd1c367a1600f789dc9d4c2b20f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078735,
+          "stop" : 1580870078851,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      }, {
+        "name" : "test_get_access_code[正确的accesstoken返回成功]",
+        "uid" : "22a6f406bc16b98f",
+        "parentUid" : "365b6cd1c367a1600f789dc9d4c2b20f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078351,
+          "stop" : 1580870078472,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ba9308d1c5491074425c852739900d3d'" ]
+      } ],
+      "uid" : "365b6cd1c367a1600f789dc9d4c2b20f"
+    }, {
+      "name" : "17272-MainThread",
+      "children" : [ {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "97f7fa79b9a9de85",
+        "parentUid" : "847e5a4fef495c2a056fc625cccd0779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580869967191,
+          "stop" : 1580869967628,
+          "duration" : 437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      }, {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "3f979fae641589e2",
+        "parentUid" : "847e5a4fef495c2a056fc625cccd0779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580869967680,
+          "stop" : 1580869967804,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      }, {
+        "name" : "test_get_access_code[错误的accesstoken返回失败]",
+        "uid" : "2f21722b97da6d82",
+        "parentUid" : "847e5a4fef495c2a056fc625cccd0779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580869966735,
+          "stop" : 1580869967133,
+          "duration" : 398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'wrong'" ]
+      }, {
+        "name" : "test_get_access_code[正确的accesstoken返回成功]",
+        "uid" : "d41ef6d5de314e58",
+        "parentUid" : "847e5a4fef495c2a056fc625cccd0779",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580869966226,
+          "stop" : 1580869966638,
+          "duration" : 412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ba9308d1c5491074425c852739900d3d'" ]
+      } ],
+      "uid" : "847e5a4fef495c2a056fc625cccd0779"
+    }, {
+      "name" : "18080-MainThread",
+      "children" : [ {
+        "name" : "test_get_access_code[正确的accesstoken返回成功]",
+        "uid" : "d16b3e0b8807c202",
+        "parentUid" : "338a63bdbd564c5876d8f48487a98b4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580868311482,
+          "stop" : 1580868311605,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ba9308d1c5491074425c852739900d3d'" ]
+      }, {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "90ea4fead91102b4",
+        "parentUid" : "338a63bdbd564c5876d8f48487a98b4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580868311860,
+          "stop" : 1580868311976,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      }, {
+        "name" : "test_get_access_code[错误的accesstoken返回失败]",
+        "uid" : "c06bbf5ac640f854",
+        "parentUid" : "338a63bdbd564c5876d8f48487a98b4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580868311662,
+          "stop" : 1580868311779,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'wrong'" ]
+      }, {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "71b9babfe585c9d7",
+        "parentUid" : "338a63bdbd564c5876d8f48487a98b4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580868312044,
+          "stop" : 1580868312167,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      } ],
+      "uid" : "338a63bdbd564c5876d8f48487a98b4d"
+    }, {
+      "name" : "17844-MainThread",
+      "children" : [ {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "b697c73ef62223d6",
+        "parentUid" : "1a5b60066ca723dd4934b2b0be64e881",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580868013283,
+          "stop" : 1580868013662,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      }, {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "a5ae1a7275c79843",
+        "parentUid" : "1a5b60066ca723dd4934b2b0be64e881",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580868012810,
+          "stop" : 1580868013228,
+          "duration" : 418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      } ],
+      "uid" : "1a5b60066ca723dd4934b2b0be64e881"
+    }, {
+      "name" : "20816-MainThread",
+      "children" : [ {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "ee5af8a4275e606",
+        "parentUid" : "6630cc566072e97a5b676d2c7fe2fe7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580866847733,
+          "stop" : 1580866848118,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      }, {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "1107e3e869c47e7e",
+        "parentUid" : "6630cc566072e97a5b676d2c7fe2fe7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580866847187,
+          "stop" : 1580866847685,
+          "duration" : 498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      } ],
+      "uid" : "6630cc566072e97a5b676d2c7fe2fe7f"
+    } ],
+    "uid" : "9c9cc193c534d516235ffc86fdb16fb8"
+  } ]
+}

@@ -1,0 +1,72 @@
+{
+  "uid" : "3f979fae641589e2",
+  "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+  "fullName" : "TestCase.TestGetToken.test_gettoken.Test_GetAppToken#test_getapptoken[visitor存在，返回success状态为True]",
+  "historyId" : "1271d53acea78e5c2e4f890552429ffe",
+  "time" : {
+    "start" : 1580869967680,
+    "stop" : 1580869967804,
+    "duration" : 124
+  },
+  "description" : "用例————visitor不存在和visitor存在来断言",
+  "descriptionHtml" : "<p>用例————visitor不存在和visitor存在来断言</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取授权"
+  }, {
+    "name" : "feature",
+    "value" : "Test_GetAppToken接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestGetToken"
+  }, {
+    "name" : "suite",
+    "value" : "test_gettoken"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GetAppToken"
+  }, {
+    "name" : "host",
+    "value" : "HTBC-20140822KE"
+  }, {
+    "name" : "thread",
+    "value" : "17272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestGetToken.test_gettoken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "True"
+  }, {
+    "name" : "visitor",
+    "value" : "'pytester'"
+  } ],
+  "links" : [ {
+    "name" : "case id：020401",
+    "url" : "case id：020401",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f979fae641589e2.json",
+  "parameterValues" : [ "True", "'pytester'" ]
+}

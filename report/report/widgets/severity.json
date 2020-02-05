@@ -1,0 +1,41 @@
+[ {
+  "uid" : "22a6f406bc16b98f",
+  "name" : "test_get_access_code[正确的accesstoken返回成功]",
+  "time" : {
+    "start" : 1580870078351,
+    "stop" : 1580870078472,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8519d9d67cdd23e",
+  "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+  "time" : {
+    "start" : 1580870078902,
+    "stop" : 1580870079027,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b26c352a64cb3870",
+  "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+  "time" : {
+    "start" : 1580870078735,
+    "stop" : 1580870078851,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82ecbdc8b6719195",
+  "name" : "test_get_access_code[错误的accesstoken返回失败]",
+  "time" : {
+    "start" : 1580870078544,
+    "stop" : 1580870078664,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

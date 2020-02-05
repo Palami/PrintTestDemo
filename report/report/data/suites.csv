@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Feb 05 10:34:38 CST 2020","Wed Feb 05 10:34:38 CST 2020","116","TestCase.TestGetToken","test_gettoken","Test_GetAppToken","","","test_getapptoken[visitor不存在，返回success状态为False]","用例————visitor不存在和visitor存在来断言"
+"passed","Wed Feb 05 10:34:38 CST 2020","Wed Feb 05 10:34:38 CST 2020","121","TestCase.TestGetAccessCode","test_GetAccessCode","Test_GetAccessCode","","","test_get_access_code[正确的accesstoken返回成功]",""
+"passed","Wed Feb 05 10:34:38 CST 2020","Wed Feb 05 10:34:38 CST 2020","120","TestCase.TestGetAccessCode","test_GetAccessCode","Test_GetAccessCode","","","test_get_access_code[错误的accesstoken返回失败]",""
+"passed","Wed Feb 05 10:34:38 CST 2020","Wed Feb 05 10:34:39 CST 2020","125","TestCase.TestGetToken","test_gettoken","Test_GetAppToken","","","test_getapptoken[visitor存在，返回success状态为True]","用例————visitor不存在和visitor存在来断言"

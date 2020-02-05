@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test_GetAccessCode接口",
+    "children" : [ {
+      "name" : "获取code",
+      "children" : [ {
+        "name" : "test_get_access_code[正确的accesstoken返回成功]",
+        "uid" : "22a6f406bc16b98f",
+        "parentUid" : "e7760475afa06a313698b6c7ecf51202",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078351,
+          "stop" : 1580870078472,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ba9308d1c5491074425c852739900d3d'" ]
+      }, {
+        "name" : "test_get_access_code[错误的accesstoken返回失败]",
+        "uid" : "82ecbdc8b6719195",
+        "parentUid" : "e7760475afa06a313698b6c7ecf51202",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078544,
+          "stop" : 1580870078664,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'wrong'" ]
+      } ],
+      "uid" : "e7760475afa06a313698b6c7ecf51202"
+    } ],
+    "uid" : "f8343b1a2b2a6f340d895315d1230a21"
+  }, {
+    "name" : "Test_GetAppToken接口",
+    "children" : [ {
+      "name" : "获取授权",
+      "children" : [ {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "b26c352a64cb3870",
+        "parentUid" : "5054e5876769fa8adac5c9991b58cb8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078735,
+          "stop" : 1580870078851,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      }, {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "b8519d9d67cdd23e",
+        "parentUid" : "5054e5876769fa8adac5c9991b58cb8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078902,
+          "stop" : 1580870079027,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      } ],
+      "uid" : "5054e5876769fa8adac5c9991b58cb8b"
+    } ],
+    "uid" : "51e169ad521fb949924155702f807f3d"
+  } ]
+}

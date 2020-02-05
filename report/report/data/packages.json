@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "TestGetAccessCode.test_GetAccessCode",
+      "children" : [ {
+        "name" : "test_get_access_code[正确的accesstoken返回成功]",
+        "uid" : "22a6f406bc16b98f",
+        "parentUid" : "0a15fa12e151f7fa165406b45276f30c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078351,
+          "stop" : 1580870078472,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ba9308d1c5491074425c852739900d3d'" ]
+      }, {
+        "name" : "test_get_access_code[错误的accesstoken返回失败]",
+        "uid" : "82ecbdc8b6719195",
+        "parentUid" : "0a15fa12e151f7fa165406b45276f30c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078544,
+          "stop" : 1580870078664,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'wrong'" ]
+      } ],
+      "uid" : "TestGetAccessCode.test_GetAccessCode"
+    }, {
+      "name" : "TestGetToken.test_gettoken",
+      "children" : [ {
+        "name" : "test_getapptoken[visitor不存在，返回success状态为False]",
+        "uid" : "b26c352a64cb3870",
+        "parentUid" : "8ff8c299727ffdef5708a5d942a3345d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078735,
+          "stop" : 1580870078851,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'不存在'" ]
+      }, {
+        "name" : "test_getapptoken[visitor存在，返回success状态为True]",
+        "uid" : "b8519d9d67cdd23e",
+        "parentUid" : "8ff8c299727ffdef5708a5d942a3345d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1580870078902,
+          "stop" : 1580870079027,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'pytester'" ]
+      } ],
+      "uid" : "TestGetToken.test_gettoken"
+    } ],
+    "uid" : "9fa14e2db0d1ecbd3a4c5f0825d2ac34"
+  } ]
+}

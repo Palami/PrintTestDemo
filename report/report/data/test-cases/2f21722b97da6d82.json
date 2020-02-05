@@ -1,0 +1,70 @@
+{
+  "uid" : "2f21722b97da6d82",
+  "name" : "test_get_access_code[错误的accesstoken返回失败]",
+  "fullName" : "TestCase.TestGetAccessCode.test_GetAccessCode.Test_GetAccessCode#test_get_access_code[错误的accesstoken返回失败]",
+  "historyId" : "a807f9ff23820a19726a54ff50a9c97a",
+  "time" : {
+    "start" : 1580869966735,
+    "stop" : 1580869967133,
+    "duration" : 398
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取code"
+  }, {
+    "name" : "feature",
+    "value" : "Test_GetAccessCode接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.TestGetAccessCode"
+  }, {
+    "name" : "suite",
+    "value" : "test_GetAccessCode"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GetAccessCode"
+  }, {
+    "name" : "host",
+    "value" : "HTBC-20140822KE"
+  }, {
+    "name" : "thread",
+    "value" : "17272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestGetAccessCode.test_GetAccessCode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "False"
+  }, {
+    "name" : "token",
+    "value" : "'wrong'"
+  } ],
+  "links" : [ {
+    "name" : "case id：020402",
+    "url" : "case id：020402",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f21722b97da6d82.json",
+  "parameterValues" : [ "False", "'wrong'" ]
+}
